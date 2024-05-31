@@ -1,0 +1,125 @@
+<header class="main__header">
+    <div class="header__left">
+        <div class="header__left_title">
+            <nav class="sidebar">
+                <app-sidebar></app-sidebar>
+              </nav>
+        </div>
+        <img class="burger__btn" src="public/list.svg" alt="list">
+    </div>
+    <div class="header__center">
+        <form class="header__form">
+            <img src="public/filter.svg" alt="filter">
+            <input type="text" class="header__input" placeholder="Placeholder text goes here...">
+            <div class="blue__outline_btn">
+                <img src="public/search.svg" alt="search">
+                Search
+            </div>
+        </form>
+        <div class="header__buttons">
+            <div class="add__contact">
+                + Add contact
+            </div>
+            <div class="vertical__border_16"></div>
+            <div class="header__icons">
+                <img src="public/add-friends.svg" alt="add">
+                <img src="public/comment-header.svg" alt="add">
+                <img src="public/notification-header.svg" alt="add">
+            </div>
+        </div>
+    </div>
+    <div class="header__right">
+        <div class="header__right_user">
+            <img src="public/ava-header.png" alt="ava">
+            <div class="header__user_name">Nenad Milosevic</div>
+        </div>
+        <div class="vertical__border_16"></div>
+        <img src="public/logout-header.svg" alt="logout">
+    </div>
+    <app-login></app-login>
+</header>
+
+<main class="main__content">
+    <nav class="left__nav">
+        <div class="left__nav_top">
+            <div class="dropdowns__wrap">
+                <div class="dropdown__point">
+                    <div class="dropdown__text">Profile</div>
+                    <img src="public/drop-open.svg" alt="drop">
+                </div>
+                <div class="dropdown__inner">
+                    <div class="dropdown__inner-block">
+                        <div class="drop_inner_img_wrap">
+                            <img src="public/ava-dropdown.png" alt="ava">
+                        </div>
+                        <div class="drop_block_inner_text">
+                            Nenad Milosevic
+                        </div>
+                    </div>
+                    <div class="dropdown__inner-block">
+                        <div class="drop_inner_img_wrap">
+                            <img src="public/drop-profile.svg" alt="ava">
+                        </div>
+                        <div class="drop_block_inner_text">
+                            Profile
+                        </div>
+                    </div>
+                    <div class="dropdown__inner-block">
+                        <div class="drop_inner_img_wrap">
+                            <img src="public/drop-privacy.svg" alt="ava">
+                        </div>
+                        <div class="drop_block_inner_text">
+                            Privacy
+                        </div>
+                    </div>
+                    <div class="dropdown__inner-block">
+                        <div class="drop_inner_img_wrap">
+                            <img src="public/drop-portfolio.svg" alt="ava">
+                        </div>
+                        <div class="drop_block_inner_text">
+                            Portfolio
+                        </div>
+                    </div>
+                    <div class="dropdown__inner-block">
+                        <div class="drop_inner_img_wrap">
+                            <img src="public/drop-settings.svg" alt="ava">
+                        </div>
+                        <div class="drop_block_inner_text">
+                            Settings
+                        </div>
+                    </div>
+                </div>
+                <div class="dropdown__point">
+                    <div class="dropdown__text">Main</div>
+                    <img src="public/drop-close.svg" alt="drop">
+                </div>
+                <div class="dropdown__point">
+                    <div class="dropdown__text">Tools</div>
+                    <img src="public/drop-close.svg" alt="drop">
+                </div>
+                <div class="dropdown__point">
+                    <div class="dropdown__text">Info</div>
+                    <img src="public/drop-close.svg" alt="drop">
+                </div>
+                <div class="dropdown__point">
+                    <div class="dropdown__text">Channels</div>
+                    <img src="public/drop-close.svg" alt="drop">
+                </div>
+            </div>
+            <div class="nav__bottom_points_wrap" id="nav__bottom_points_wrap">
+            </div>
+        </div>
+
+        <div class="nav__left_bottom">
+            <div class="nav__left_bottom_text">
+                $982
+            </div>
+            <div class="nav__left_bottom_btn">
+                Add Funds
+            </div>
+        </div>
+    </nav>
+    
+
+<router-outlet></router-outlet>
+

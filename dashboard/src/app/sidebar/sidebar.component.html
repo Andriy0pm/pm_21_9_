@@ -1,0 +1,5 @@
+<div class="profile">
+    <p *ngIf="username; else loginPrompt">{{ username }}</p>
+    <ng-template #loginPrompt>Login to access</ng-template>
+  </div>
+  

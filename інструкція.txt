@@ -1,0 +1,2 @@
+1. запуск сервера (ПКМ по api server -> Git Bash -> node server.js)
+2. запуск сайту (ng serve -o)
